@@ -1,1 +1,1 @@
-This file is regarding the loading GIF for the index.html
+This file is regarding the loading GIFs for the index.html. Welcome to add more GIFs for enriching the webpage's elements. 
