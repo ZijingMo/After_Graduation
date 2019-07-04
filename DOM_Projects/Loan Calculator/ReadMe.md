@@ -1,5 +1,5 @@
 # Brief Introduction
-*This file introduces algorithm of loan calculator, methods of app.js and reference of index.html*   
+*This file introduces algorithm of loan calculator, methods of app.js and reference of index.html. Programming language: Javascript. Source-code editor: Visual Studio Code*   
 
 ## - Algorithm
 
