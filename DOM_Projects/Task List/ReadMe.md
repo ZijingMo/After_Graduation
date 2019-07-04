@@ -1,5 +1,5 @@
 # Brief Intorduction
-*This project is regrading manipulation and events handling for a task list page. Programming language: Javascript. Source-code editor: Visual Studio Code*
+*This project is regarding manipulation and events handling for a task list page. Programming language: Javascript. Source-code editor: Visual Studio Code*
 
 ### Index.html file 
 
