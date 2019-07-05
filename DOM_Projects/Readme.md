@@ -1,1 +1,1 @@
-Three projects in this DOM_Projects directory: Task List, Loan Calculator and Number Guesser.
+Three projects in this DOM_Projects directory are Task List, Loan Calculator and Number Guesser. Programming language: JavaScript
