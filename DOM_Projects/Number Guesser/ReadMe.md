@@ -1,5 +1,5 @@
-# Brief Intro
-
+# Brief Introduction 
+*This file introduces game rules, UI functionalities, and HTML reference. Programming language: Javascript. Source-code editor: Visual Studio Code*
 
 
 
