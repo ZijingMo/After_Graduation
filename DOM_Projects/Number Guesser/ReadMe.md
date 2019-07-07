@@ -8,7 +8,7 @@
 4. System notifies player the correct answer if he or she loses the game
 5. Let players choose to player again
 
-*These global parameters can be edited in app.js file*
+> *These global parameters can be edited in app.js file*
 1. Minimum number is one and maxium number is ten 
 2. Number of guesses are three
 3. Victorious number is a random variable between one and ten
