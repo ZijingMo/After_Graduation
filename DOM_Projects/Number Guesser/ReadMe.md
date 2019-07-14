@@ -1,5 +1,5 @@
 # Brief Introduction 
-*This file introduces game rules and configuration, UI functionalities, and HTML reference. Programming language: Javascript. Source-code editor: Visual Studio Code*
+*This file introduces game rules and configuration, UI functionalities, Usage of application ,and HTML reference. Programming language: Javascript. Source-code editor: Visual Studio Code*
 
 ## - Rules and Configurations 
 1. Players must guess a number between the minimum and maximum numbers
@@ -20,6 +20,11 @@
 Assume that maximum numbers is ![equation](https://latex.codecogs.com/gif.latex?\gamma), minimum number is ![equation](https://latex.codecogs.com/png.latex?\delta), random number is ![equation](https://latex.codecogs.com/png.latex?x). The equation will be:
 
    ![equation](https://latex.codecogs.com/png.latex?\bg_white&space;Math.floor(Math.random()*(\gamma-\delta&space;&plus;&space;1)&space;&plus;&space;\delta))
+   
+## - Usage
+1. Loading the folder with Visual Studio Code 
+2. Enabling 'Live Server' extension at Visual Studio Code extension section
+3. Clicking mouse right key and choosing 'Open with Live Server' option 
 
 ## - Reference 
 The UI elements for this project is concise. Only a few of skeleton elements are applied into index.html. The link is https://cdnjs.com/libraries/skeleton  
