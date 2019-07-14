@@ -1,5 +1,5 @@
 # Brief Introduction
-*This file introduces algorithm of loan calculator, methods of app.js and reference of index.html. Programming language: Javascript. Source-code editor: Visual Studio Code*   
+*This file introduces algorithm of loan calculator, methods and usage of app.js, and reference of index.html. Programming language: Javascript. Source-code editor: Visual Studio Code*   
 
 ## - Algorithm
 
@@ -28,8 +28,16 @@ As a result,
 ![equation](https://latex.codecogs.com/gif.latex?\fn_cs&space;x=&space;\frac{\alpha\beta[(1&plus;\beta)^\tau]}{(1&plus;\beta)^\tau&space;-&space;1})
 
 
-## - Methods
+## - Methods and Usage
+
+Methods: 
+
 Based on DOM tree, these methods are applied in the app.js file: *getElementById(), addEventListener(), createElement(), querySelector(), appendChild(), insertBefore().* Other methods in this code: *parseFloat(), Math.pow(), isFinite(), setTimeout(), remove().*
+
+Usage:
+1. Loading the folder with Visual Studio Code 
+2. Enabling 'Live Server' extension at Visual Studio Code extension section
+3. Clicking mouse right key and choosing 'Open with Live Server' option 
 
 ## - Reference
 Bootstrap.com provides the template: https://getbootstrap.com/docs/4.3/getting-started/introduction/. In the 'img' file folder, there are three .gif files for changing the loading style. These files are from: https://gifer.com/en/UbTh.  
