@@ -30,6 +30,7 @@ This application possesses other traits. Since this application is developed on 
   ![image](https://github.com/ZijingMo/After_Graduation/blob/master/Node.JS/Weather%20app/Preview/Preview8.png)
   - ***Still Globalism?***
   ![image](https://github.com/ZijingMo/After_Graduation/blob/master/Node.JS/Weather%20app/Preview/Preview9.png)
+  ![image](https://github.com/ZijingMo/After_Graduation/blob/master/Node.JS/Weather%20app/Preview/Preview14.png)
   - ***Try BH90210 :)***
   ![image](https://github.com/ZijingMo/After_Graduation/blob/master/Node.JS/Weather%20app/Preview/Preview10.png)  
 - **Error handlers**
