@@ -11,7 +11,7 @@ Compared with her [elder sister](https://github.com/ZijingMo/After_Graduation/tr
 4. Multilingual typing is practicable and yet system can't guarantee accurate return value, for instance 皇居 (Japanese Imperial Palace, Tokyo), الرياض (Riyadh, Saudi Arabia)  
 5. American zip code is effective as well. 
 
-This application possesses other traits. Since this application is developed on Express library, it simplifies the process of HTTP methods for RESTful services. On the other hand, 'hbs' module runs the function of Handlebars.js. It is a kind of mustache templating lanuage. It keeps the view and the code separated. Instead of all web pages being static documents served up from 'public' directory, they are going to be handlebar-templates. Web developers are able to decide which parts are dynamic and which parts are static in the pages. This design of page could save a lot of time from repetitive operations. 
+This application possesses other traits. Since this application is developed on 'express' and 'request' packages, it simplifies the process of HTTP methods for RESTful services. On the other hand, 'hbs' module runs the function of Handlebars.js. It is a kind of mustache templating lanuage. It keeps the view and the code separated. Instead of all web pages being static documents served up from 'public' directory, they are going to be handlebar-templates. Web developers are able to decide which parts are dynamic and which parts are static in the pages. This design of page could save a lot of time from repetitive operations. 
 
 ## Previews
 - **The collection of pages (homepage, about, help, 404)**
@@ -45,17 +45,19 @@ This application possesses other traits. Since this application is developed on 
     2. Cloning or downloading [Weather-website-nodeJS](https://github.com/ZijingMo/Weather-website-nodeJS) repository to your local file directory. 
     3. Uncompressing the zip file in appropriate path.
     4. Locating at that path in the terminal or command prompt window (it depends on your operating system).
-    5. Installing these modules before running the code (for some OS, user needs to type 'sudo' before 'npm' arguement):
+    5. Installing these modules before running the code (for some OS, user needs to type 'sudo' before 'npm' field):
     ```
       $ npm i express@4.17.1 
       $ npm i hbs@4.0.4
       $ npm i request@2.88.0
     ```
-    6. Inputing ``$ node src/app.js``. When the sentence of ``Server is up on port  3000`` appears on the screen, it means this app is running properly. 
+    6. After environment has been set up, inputing ``$ node src/app.js`` in the command line. When the sentence of ``Server is up on port  3000`` appears on the screen, it means this app has ran properly. 
     7. Turning browsers (Chrome, Safari or others) on and typing `localhost:3000` on address bar.
     8. Enjoying the weather forecasting services!
-- **The API Explanation** 
-    1. Mapbox: this API supports geo-addressing. It receives location information and returns accurate longitude and latitude for weather forecasting. In August 2019, the usage of 25,000 calls per month is free. You could [sign an account up](https://account.mapbox.com/auth/signup/?route-to=%22/%22) for further or other development.  
-    2. Darksky: todo
+- **The API Explanations** 
+    1. Mapbox: this API supports geo-addressing. In the app.js (server side) and geocode.js file, 'geocode()' function receives location information from user and returns longitude, latitude, and location's name to 'forecast()' function, with the help of Mapbox API. In August 2019, the usage counts under 25,000 calls per month are still free for everyone. You could [sign an account](https://account.mapbox.com/auth/signup/?route-to=%22/%22) for further or other web application developments.  
+    2. Darksky: this API supports weather forecasting. In the app.js (server side) and forecast.js file, 'forecast()' function receives longitude, latitude, and location's name from 'geocode()' function and returns local weather summary, current temperature ,and local precipitation to client's side app.js. In August 2019, the usage counts under 1000 calls per day are still free for everyone. You could [sign an account](https://darksky.net/dev/register) for further or other web application developments. 
 ## Reference
-todo
+1. Module introductions: [express](https://www.npmjs.com/package/express), [hbs](https://www.npmjs.com/package/hbs), [request](https://www.npmjs.com/package/request).
+2. API documents: [mapbox](https://docs.mapbox.com/api/search/), [dark sky](https://darksky.net/dev/docs)
+3. Core JavaScript techniques: [callback](https://medium.com/codebuddies/getting-to-know-asynchronous-javascript-callbacks-promises-and-async-await-17e0673281ee), [express web framework (Nodejs or JavaScript)](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs)
