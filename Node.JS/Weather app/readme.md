@@ -38,7 +38,24 @@ This application possesses other traits. Since this application is developed on 
 ![image](https://github.com/ZijingMo/After_Graduation/blob/master/Node.JS/Weather%20app/Preview/Preview12.png)
 ![image](https://github.com/ZijingMo/After_Graduation/blob/master/Node.JS/Weather%20app/Preview/Preview13.png)
 
-## Modules Installation and Usage
-todo
+## Usage, Modules and Miscellany
+*Dollar sign($) in this section means path name*
+- **The User and Developer's guidebook**
+    1. Downloading Node.js runtime[(12.9.0 or later version)](https://nodejs.org/en/download/current/).
+    2. Cloning or downloading [Weather-website-nodeJS](https://github.com/ZijingMo/Weather-website-nodeJS) repository to your local file directory. 
+    3. Uncompressing the zip file in appropriate path.
+    4. Locating at that path in the terminal or command prompt window (it depends on your operating system).
+    5. Installing these modules before running the code (for some OS, user needs to type 'sudo' before 'npm' arguement):
+    ```
+      $ npm i express@4.17.1 
+      $ npm i hbs@4.0.4
+      $ npm i request@2.88.0
+    ```
+    6. Inputing ``$ node src/app.js``. When the sentence of ``Server is up on port  3000`` appears on the screen, it means this app is running properly. 
+    7. Turning browsers (Chrome, Safari or others) on and typing `localhost:3000` on address bar.
+    8. Enjoying the weather forecasting services!
+- **The API Explanation** 
+    1. Mapbox: this API supports geo-addressing. It receives location information and returns accurate longitude and latitude for weather forecasting. In August 2019, the usage of 25,000 calls per month is free. You could [sign an account up](https://account.mapbox.com/auth/signup/?route-to=%22/%22) for further or other development.  
+    2. Darksky: todo
 ## Reference
 todo
