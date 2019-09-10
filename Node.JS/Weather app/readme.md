@@ -5,7 +5,7 @@
 
 ## Features
 Compared with her [elder sister](https://github.com/ZijingMo/After_Graduation/tree/master/Vanilla.JS/Weather), she focuses on the application of express library and coordinations between server and client side. This collection of pages contains four types of page: homepage, 'about' page, 'help' page, and '404' page. Weather and location queries are concentrated on homepage, which is called 'weather' page as well. Because of diverse choice of API, this application has stronger functionalities of weather forecast than her sis as below. 
-1. Inputing same city's name from different countries, like London (US) and London (US).
+1. Inputing same city's name from different countries, like London (UK) and London (US).
 2. Making a very specific address query, such as *1600 Pennsylvania Ave NW* (White House's address).
 3. Scenic spot or historical site is valid input, like Buckingham Palace.
 4. Multilingual typing is practicable and yet system can't guarantee accurate return value, for instance 皇居 (Japanese Imperial Palace, Tokyo), الرياض (Riyadh, Saudi Arabia)  
