@@ -1,5 +1,5 @@
 # Introduction
-*Based on most parts of React.JS's features, this is a long term project (ETA 3 mo. to 4 mo. from July 2019) to develop.*  
+*Based on most parts of React.JS's features, this is a long term project (ETA 4 mo. to 5 mo. from July 2019) to develop.*  
 
 ![alt text](https://images-na.ssl-images-amazon.com/images/I/71ieX5VhqxL._SL1500_.jpg)
 
