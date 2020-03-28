@@ -1,5 +1,5 @@
 # Introduction
-*Based on most parts of React.JS's features, this is a long term project (ETA 6 mo. to 7 mo. from July 2019) to develop. The development time is beyond expectation*  
+*Based on most parts of React.JS's features, this is a long term project (from July 2019) to develop. Every piece of cood needs to be refactored. The development time is beyond expectation*  
 
 ![alt text](https://images-na.ssl-images-amazon.com/images/I/71ieX5VhqxL._SL1500_.jpg)
 
