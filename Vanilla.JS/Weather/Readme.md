@@ -27,6 +27,7 @@ For index.html file, Cerulean template from [Bootswatch](https://bootswatch.com/
 2. Installing and enabling 'Live Server' extension at VS Code extension section
 3. Clicking mouse right key and choosing 'Open with Live Server' option at the index.html file 
 4. Personal API [registered links](https://home.openweathermap.org/users/sign_up) for openweather
+5. [Click here. ](https://vanilla-weather-forecast.herokuapp.com/)(This app has been deployed on Heroku server)
 
 ## Reference
 1. OpenWeather API document: https://openweathermap.org/current
