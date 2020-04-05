@@ -19,4 +19,5 @@ Todo
 4. Heroku demo
 
 ## Reference
-Todo
+1. Canvas API
+2. Window.requestAnimationFrame()
