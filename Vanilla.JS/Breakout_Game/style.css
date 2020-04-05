@@ -36,7 +36,7 @@ canvas {
   background: black;
   color: ghostwhite;
   border-radius: 5px;
-  font-size: 12px;
+  font-size: 15px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -69,11 +69,12 @@ canvas {
   min-height: 100vh;
   width: 350px;
   padding: 20px;
+  /* Hide the game rules */
   transform: translateX(-350px);
   transition: transform 0.8s ease-in-out;
 }
 
-
+/* Show the game rules */
 .rules.show {
   transform: translateX(0);
 }
